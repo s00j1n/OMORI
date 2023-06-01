@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,15 +7,60 @@
     <title>Document</title>
     <style>
    
-   .img_area{height:300px; height:150px;}
+   .img_area{height:900px; width:auto;}
    .img_area img{vertical-align:middle;}
-   
+   * {
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        list-style: none;
+      }
+      .kind_wrap {
+        border: 1px solid rgb(0, 0, 0);
+        width: 1920px;
+        max-width: auto;
+        margin: 0 auto;
+        position: relative;
+      }
+      .kind_wrap > .kind_slider {
+        overflow: hidden;
+      }
+      .kind_wrap > .kind_slider .slider {
+        position: relative;
+        transition: 0.5s;
+      }
+      .kind_wrap > .kind_slider .slider li {
+        float: left;
+      }
+      .kind_wrap > .kind_slider img {
+        vertical-align: top;
+      }
+      .kind_wrap .arrow > a.prev {
+        position: absolute;
+        left: -50px;
+        top: 100px;
+      }
+      .kind_wrap .arrow > a.next {
+        position: absolute;
+        right: -50px;
+        top: 100px;
+      }
 </style>
     
   </head>
   <body bgcolor="black">
+    <div style="width:100vw; height: 100vh; display: flex; align-items: center;">
+      <div style="border: 1px solid rgb(0, 0, 0); line-height: 200px; text-align:center;  margin: 0 auto;"> 
+<div style="text-align: center;">
+<div class="kind_wrap">
+  <div class="kind_slider">
     <a href="movement.html"><div class="img_area" style="display: flex; justify-content:center;">
         <img src="./OMORI_2/images/mari.gif" alt="">
      </div></a>
+       </div>
+  </div>
+</div>
+</div>
   </body>
 </html>
