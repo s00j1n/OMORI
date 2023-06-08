@@ -2416,11 +2416,12 @@ input, select, textarea {
 			}
 
 			.bg_img {
-				background-image: url(/OMORI_2/images/map.png), url(https://i.namu.wiki/i/hR8d9hlud9rcx2XtN7YFIhx536ltXIMPcLbk7jk2BQPviKXqbEx3A5fk4NfzPo7ry7ijGJTRQE1kbE5c4GJrL_jsiIIbc_HYgUN0eh5P_lLRbLLUMyMeeceo-8t7__0FMbbCQWv-1qihMTvteonMnA.webp);
+				background-image: url(/OMORI_2/images/map.png), url(https://i.namu.wiki/i/Vrg3vRwyMsacnI9ziSt2JTT3qWR9Tl7FDuzIbFGwwG4UW2iXhAzC_1IoVU8NMdbMxsl0mUMr-QZIu94T-mC_jsHwg-4uIF17H-WkfFFeCYCma6A9aSeNVCsCJyw6tOZlbzo6GgQ18HoLrftorZc3Qw.webp);
 				background-size: cover;
 				background-repeat: no-repeat;
 				max-width: 100%;
 				height: auto;
+				border-radius: 2%;
 			}
 
 		
