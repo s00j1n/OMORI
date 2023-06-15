@@ -2416,7 +2416,7 @@ input, select, textarea {
 			}
 
 			.bg_img {
-				background-image: url(https://i.namu.wiki/i/tYRbY3VT9SKx3QekwNRuS2Y1I8psIbGuBQmGY_CsubW8pBk_5iiC7RXYaAfHdDu5YvKFtfUPzppQEyJFr1D0uppbYwsF5oo0aUtRhxK4RCCNjzH3QDSqLZsBPO3p2Cikvngsb-1GQjPx9WG7sHY7DQ.webp);
+				background-image: url(/OMORI_2/images/map.png), url(https://i3.ruliweb.com/img/19/02/15/168ef203ba3352bb.jpg);
 				background-size: cover;
 				background-repeat: no-repeat;
 				max-width: 100%;
